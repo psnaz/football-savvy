@@ -4,3 +4,15 @@
 body {
     background: ;
 }
+
+/* logo */
+.logo {
+    width: 30px;
+    height: auto;
+}
+
+h1 {
+    font-family: Black Ops One, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
