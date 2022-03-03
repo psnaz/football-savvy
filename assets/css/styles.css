@@ -9,12 +9,32 @@
 }
 
 body {
-    /*background: #658AB4; */
+    background: #658AB4;
     font-family: Montserrat, sans-serif;
 }
 
-/* logo and h1 - followed Love Running Walkthrough Project */
-/* logo */
+.start-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Start Quiz Button Styling */
+.start-btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #202D38;
+    background: #EEC51D;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Logo and h1 - followed Love Running Walkthrough Project */
+/* Logo */
 .logo {
     width: 30px;
     height: auto;
