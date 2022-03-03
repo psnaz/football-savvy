@@ -10,8 +10,10 @@
 
 body {
     background: #658AB4;
+    font-family: Montserrat, sans-serif;
 }
 
+/* logo and h1 - followed Love Running Walkthrough Project */
 /* logo */
 .logo {
     width: 30px;
