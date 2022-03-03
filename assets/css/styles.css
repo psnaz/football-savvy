@@ -13,6 +13,12 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+.heading{
+    background: #91BB5F;
+    color: #fff;
+    padding: 35px;
+}
+
 .start-btn, .info-box{
     position: absolute;
     top: 50%;
@@ -48,6 +54,21 @@ body {
     padding: 0 35px;
     font-size: 20px;
     font-weight: 600px;
+
+}
+
+.info-box .info-list{
+    padding: 15px 35px;
+}
+
+.info-box .info-list .info{
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.info-box .info-list .info span{
+    font-weight: bolder;
+    color: #658AB4;
 
 }
 
