@@ -19,6 +19,10 @@ body {
     padding: 35px;
 }
 
+h3{
+    font-family: Black Ops One, sans-serif;
+}
+
 .start-btn, .info-box{
     position: absolute;
     top: 50%;
@@ -39,10 +43,12 @@ body {
     cursor: pointer;
 }
 
+/* Info Box Styling */
 .info-box{
     width: 540px;
     background-color: #fff;
     border-radius: 5px;
+    font-weight: bolder;
 }
 
 .info-box .info-title{
@@ -52,9 +58,13 @@ body {
     display: flex;
     align-items: center;
     padding: 0 35px;
-    font-size: 20px;
-    font-weight: 600px;
+    /*font-size: 20px;
+    font-weight: 600px; */
 
+}
+
+info-box .info-title h3{
+    font-family: Black Ops One, sans-serif;
 }
 
 .info-box .info-list{
@@ -71,6 +81,48 @@ body {
     color: #658AB4;
 
 }
+
+.info-box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid #202D38;
+}
+
+.info-box .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #658AB4;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button.restart{
+    color: #fff;
+    background: #658AB4;
+}
+
+.buttons button.restart:hover{
+    background: #EEC51D;
+}
+
+.buttons button.quit{
+    color: #658AB4;
+}
+
+.buttons button.quit:hover{
+    color: #fff;
+    background: #EEC51D;
+}
+
+
 
 /* Logo and h1 - followed Love Running Walkthrough Project */
 /* Logo */
