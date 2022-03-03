@@ -13,7 +13,7 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-.start-btn{
+.start-btn, .info-box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,6 +31,24 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.info-box{
+    width: 540px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.info-box .info-title{
+    height: 60px;
+    width: 100%;
+    border-bottom:1px solid #202D38;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600px;
+
 }
 
 /* Logo and h1 - followed Love Running Walkthrough Project */
