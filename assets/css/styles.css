@@ -124,6 +124,8 @@ info-box .info-title h3{
     background: #EEC51D;
 }
 
+/* Quiz Box Styling */
+
 .quiz-box{
     width: 550px;
     background: #fff;
@@ -140,6 +142,12 @@ info-box .info-title h3{
     border-radius: 5px 5px 0 0;
     box-shadow: 0px 3px 5px 1px #202D38;
 }
+
+.quiz-box header .title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 
 /* Logo and h1 - followed Love Running Walkthrough Project */
