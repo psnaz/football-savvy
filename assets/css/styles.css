@@ -192,6 +192,18 @@ h3{
 }
 
 
+.quiz-box section button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 245px;
+    height: 45px;
+    background: #EEC51D;
+    border: 1px solid #EEC51D;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
 /* Logo and h1 - followed Love Running Walkthrough Project */
 /* Logo */
 .logo {
