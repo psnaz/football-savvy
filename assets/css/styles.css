@@ -124,6 +124,22 @@ info-box .info-title h3{
     background: #EEC51D;
 }
 
+.quiz-box{
+    width: 550px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.quiz-box header{
+    height: 70px;
+    padding: 0 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 3px 5px 1px #202D38;
+}
 
 
 /* Logo and h1 - followed Love Running Walkthrough Project */
