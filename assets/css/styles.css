@@ -23,7 +23,9 @@ h3{
     font-family: Black Ops One, sans-serif;
 }
 
-.start-btn, .info-box{
+.start-btn, 
+.info-box,
+.quiz-box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -65,7 +67,7 @@ h3{
 
 }
 
-info-box .info-title h3{
+.info-box .info-title h3{
     font-family: Black Ops One, sans-serif;
 }
 
@@ -127,10 +129,20 @@ info-box .info-title h3{
 /* Quiz Box Styling */
 
 .quiz-box{
+    display: /*none */;
+    width: 540px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 5px solid #202D38;
+    font-weight: bolder;
+}
+
+/*
+.quiz-box{
     width: 550px;
     background: #fff;
     border-radius: 5px;
-}
+} */
 
 .quiz-box header{
     height: 70px;
@@ -148,6 +160,36 @@ info-box .info-title h3{
     font-weight: 600;
 }
 
+.quiz-box header .timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    height: 45px;
+    background: #658AB4;
+    border: 1px solid #658ab4;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+.quiz-box header .timer .timer-text{
+    font-weight: 400;
+    font-size: 17px;
+    user-select: none;
+}
+
+.quiz-box header .timer .timer-sec{
+    font-size: 18px;
+    font-weight: bolder;
+    background: #91BB5F;
+    color: #fff;
+    height: 30px;
+    width: 45px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    user-select: none;
+}
 
 
 /* Logo and h1 - followed Love Running Walkthrough Project */
