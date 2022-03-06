@@ -21,7 +21,13 @@
     
     <!--code mostly from Code Nepal - Create Quiz App with Timer-->
     <!--Start Quiz Button-->
-    <div class="start-btn"><button>Start Quiz <i class="fa-solid fa-whistle"></i></button></div>
+    <div class="start-btn">
+        <button class="start-quiz">Start Quiz
+            <div class="whistle">
+                <i class="fa-solid fa-whistle"></i>
+            </div>
+        </button>
+    </div>
     <div class="welcome">
         <h2>Mad about football? Let's have some fun and test your knowledge about the game!</h1>
     </div>
@@ -64,22 +70,18 @@
                 <div class="option">
                     <span>A. Diego Maradona</span>
                     <div class="icon tick"><i class="fa-solid fa-check"></i></div>
-                    <!--<button class="option-btn correct-answer"><span>A. Diego Maradona</span></button> -->
                 </div>
                 <div class="option">
                     <span>B. Pelé</span>
                     <div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
-                    <!-- <button class="option-btn wrong-answer"><span>B. Pelé</span></button> -->
                 </div>
                 <div class="option">
                      <span>C. Johann Criff</span>
                      <div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
-                    <!-- <button class="option-btn wrong-answer"><span>C. Johann Criff</span></button> -->
                 </div>
                 <div class="option">
-                    <span>D. ???</span>
+                    <span>D. Adrian Mutu</span>
                     <div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
-                    <!-- <button class="option-btn wrong-answer"><span>D. ???</span></button> -->
                 </div>
             </div>
         </section>
@@ -91,6 +93,17 @@
             </div>
             <button class="next-btn">Next Question</button>
         </footer>
+    </div>
+
+    <!-- Result Box-->
+    <div class="result-box">
+        <div>
+            <i class="fa-solid fa-trophy"></i>
+        </div>
+        <div class="complete-text">Congrats on completing the Football Quiz!</div>
+        <div class="score-text">
+            <span>Your score is <p>2</p> out of <p>11.</p></span>
+        </div>
     </div>
     
 

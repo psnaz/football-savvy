@@ -45,6 +45,10 @@ h3{
     cursor: pointer;
 }
 
+.start-btn .start-quiz .whistle{
+    color: #fff;
+}
+
 /* Info Box Styling */
 .info-box{
     display: none;
@@ -137,12 +141,12 @@ h3{
     font-weight: bolder;
 }
 
-/*
 .quiz-box{
+    display: none;
     width: 550px;
     background: #fff;
     border-radius: 5px;
-} */
+}
 
 .quiz-box header{
     position: relative;
@@ -294,6 +298,8 @@ footer .next-btn{
 footer .next-btn:hover{
     background: #EEC51D;
 }
+
+
 
 /* .quiz-box section button{
     display: flex;
