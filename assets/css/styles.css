@@ -46,18 +46,20 @@ h3{
     cursor: pointer;
 }
 
-.start-btn .start-quiz .whistle{
+.start-btn .start-quiz .fa-whistle{
     color: #fff;
 }
 
 /* Info Box Styling */
 .info-box{
-    display: none;
     width: 540px;
     background-color: #fff;
     border-radius: 5px;
     border: 5px solid #202D38;
     font-weight: bolder;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .info-box .info-title{
@@ -66,7 +68,7 @@ h3{
     border-bottom: 1px solid #202D38;
     display: flex;
     align-items: center;
-    padding: 0 35px;
+    padding: 0 30px;
     /*font-size: 20px;
     font-weight: 600px; */
 
@@ -134,12 +136,14 @@ h3{
 /* Quiz Box Styling */
 
 .quiz-box{
-    display: /*none */;
     width: 540px;
     background-color: #fff;
     border-radius: 5px;
     border: 5px solid #202D38;
     font-weight: bolder;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .quiz-box{
@@ -314,9 +318,9 @@ footer .next-btn:hover{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    /*opacity: 0;
+    opacity: 0;
     pointer-events: none;
-    transform: translate(-50%, -50%) scale(0.9);*/
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .result-box .fa-trophy{
