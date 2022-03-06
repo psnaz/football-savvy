@@ -145,6 +145,8 @@ h3{
 } */
 
 .quiz-box header{
+    position: relative;
+    z-index: 99;
     height: 70px;
     padding: 0 30px;
     background: #fff;
@@ -191,8 +193,34 @@ h3{
     user-select: none;
 }
 
+.quiz-box section{
+    padding: 25px 30px 20px 30px;
+    background: #fff;
+}
 
-.quiz-box section button{
+.quiz-box section .questions-text{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.quiz-box section .option-list{
+    padding: 20px 0;
+    display: block;
+}
+
+section .option-list .option{
+    background-color: #EEC51D;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    display: flex; 
+    align-items: center;
+    justify-content: space between;
+    cursor: pointer;
+
+}
+
+/* .quiz-box section button{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -202,7 +230,7 @@ h3{
     border: 1px solid #EEC51D;
     border-radius: 5px;
     padding: 0 8px;
-}
+} */
 
 /* Logo and h1 - followed Love Running Walkthrough Project */
 /* Logo */
