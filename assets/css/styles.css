@@ -304,17 +304,103 @@ footer .next-btn:hover{
 /* Result Box */
 .result-box{
     background: #fff;
-    width: 450px;
+    width: 540px;
     padding: 25px 30px;
     border-radius: 5px;
     border: 5px solid #202D38;
-    font-weight: bold;
+    font-weight: 500;
     display: flex;
     text-align: center;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    /*opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);*/
 }
+
+.result-box .fa-trophy{
+    font-size: 100px;
+    color: #EEC51D;
+    margin-bottom: 10px;
+}
+
+.result-box .complete-text{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.result-box .score-text span{
+    display: flex;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.score-text span p{
+    font-weight: bolder;
+    padding: 0 4px;
+}
+
+/*original Code Nepal 
+.result-box .buttons{
+    display: flex;
+    margin: 20px 0;
+}
+
+.result-box .buttons button{
+    margin: 0 10px;
+    height: 45px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+*/
+
+/* Copied and pasted from info box buttons*/
+.result-box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+}
+
+.result-box .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #658AB4;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button.restart{
+    color: #fff;
+    background: #658AB4;
+}
+
+.buttons button.restart:hover{
+    background: #EEC51D;
+}
+
+.buttons button.quit{
+    color: #658AB4;
+}
+
+.buttons button.quit:hover{
+    color: #fff;
+    background: #EEC51D;
+} 
+
 
 /* Logo and h1 - followed Love Running Walkthrough Project */
 /* Logo */
