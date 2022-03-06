@@ -210,14 +210,47 @@ h3{
 
 section .option-list .option{
     background-color: #EEC51D;
+    font-size: 17px;
     border-radius: 5px;
     padding: 8px 15px;
     margin-bottom: 15px;
     display: flex; 
     align-items: center;
-    justify-content: space between;
+    justify-content: space-between;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
 
+section .option-list .option:hover{
+    color: #fff;
+    background: #658ab4;
+}
+
+.option-list .option:last-child{
+    margin-bottom: 0px;
+}
+
+.option-list .option .icon{
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.option-list .option .icon.tick{
+    color: #fff;
+    border-color: #91BB5F;
+    background: #91BB5F;
+}
+
+.option-list .option .icon.cross{
+    color: #fff;
+    border-color: #c0120;
+    background: #C01420;
 }
 
 /* .quiz-box section button{
