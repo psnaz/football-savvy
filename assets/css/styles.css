@@ -25,7 +25,8 @@ h3{
 
 .start-btn, 
 .info-box,
-.quiz-box{
+.quiz-box,
+.result-box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -257,6 +258,7 @@ section .option-list .option:hover{
     background: #C01420;
 }
 
+/* Quiz Box Footer */
 .quiz-box footer{
     height: 60px;
     width: 100%;
@@ -299,19 +301,20 @@ footer .next-btn:hover{
     background: #EEC51D;
 }
 
-
-
-/* .quiz-box section button{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 245px;
-    height: 45px;
-    background: #EEC51D;
-    border: 1px solid #EEC51D;
+/* Result Box */
+.result-box{
+    background: #fff;
+    width: 450px;
+    padding: 25px 30px;
     border-radius: 5px;
-    padding: 0 8px;
-} */
+    border: 5px solid #202D38;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 /* Logo and h1 - followed Love Running Walkthrough Project */
 /* Logo */
