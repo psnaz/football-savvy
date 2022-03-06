@@ -276,6 +276,25 @@ section .option-list .option:hover{
     padding-left: 0px;
 }
 
+footer .next-btn{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    color:#fff;
+    background: #658ab4;
+    border-radius: 5px;
+    border: 1px solid #658ab4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer .next-btn:hover{
+    background: #EEC51D;
+}
+
 /* .quiz-box section button{
     display: flex;
     align-items: center;
