@@ -253,6 +253,29 @@ section .option-list .option:hover{
     background: #C01420;
 }
 
+.quiz-box footer{
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quiz-box footer .total-questions span{
+    display: flex;
+    user-select: none;
+}
+
+.quiz-box footer .total-questions span p{
+    font-weight: 500;
+    padding: 0 5px;
+}
+
+.total-questions span p:first-child{
+    padding-left: 0px;
+}
+
 /* .quiz-box section button{
     display: flex;
     align-items: center;
