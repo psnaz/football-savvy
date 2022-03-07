@@ -13,16 +13,32 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+
 .heading{
     background: #91BB5F;
     color: #fff;
-    padding: 5px 35px;
+    /*padding: 5px 35px; */
+    background-image: url('../images/football-savvy.jpg') no-repeat ;
 }
 
 h3{
     font-family: Black Ops One, sans-serif;
 }
 
+/* Logo and h1 - followed Love Running Walkthrough Project */
+/* Logo */
+.logo {
+    width: 30px;
+    height: auto;
+}
+
+h1 {
+    font-family: Black Ops One, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/* Quiz - build by coding along with Code Nepal tutorial and making my own amendments for colours, font, icons*/
 .start-btn, 
 .info-box,
 .quiz-box,
@@ -404,17 +420,3 @@ footer .next-btn:hover{
     color: #fff;
     background: #EEC51D;
 } 
-
-
-/* Logo and h1 - followed Love Running Walkthrough Project */
-/* Logo */
-.logo {
-    width: 30px;
-    height: auto;
-}
-
-h1 {
-    font-family: Black Ops One, sans-serif;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-}
