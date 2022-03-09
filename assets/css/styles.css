@@ -47,6 +47,15 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+}
+
+.info_box.activeInfo,
+.quiz_box.activeQuiz{
+    z-index: 5;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(0.1);
 }
 
 /* Start Quiz Button Styling */
@@ -123,6 +132,7 @@ h1 {
     margin: 0 5px;
     height: 40px;
     width: 100px;
+    outline: none;
     border: 1px solid #658AB4;
     border-radius: 5px;
     color: #fff;
