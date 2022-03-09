@@ -55,7 +55,7 @@ h1 {
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
-    transform: translate(-50%, -50%) scale(0.1);
+    transform: translate(-50%, -50%) scale(1);
 }
 
 /* Start Quiz Button Styling */
@@ -88,7 +88,7 @@ h1 {
     transform: translate(-50%, -50%) scale(0.9);
 }
 
-.info_box .info_title{
+.info_box .info-title{
     height: 60px;
     width: 100%;
     border-bottom: 1px solid #202D38;
@@ -100,20 +100,20 @@ h1 {
 
 }
 
-.info_box .info_title h3{
+.info_box .info-title h3{
     font-family: Black Ops One, sans-serif;
 }
 
-.info_box .info_list{
+.info_box .info-list{
     padding: 15px 35px;
 }
 
-.info_box .info_list .info{
+.info_box .info-list .info{
     margin: 5px 0;
     font-size: 17px;
 }
 
-.info_box .info_list .info span{
+.info_box .info-list .info span{
     font-weight: bolder;
     color: #658AB4;
 
