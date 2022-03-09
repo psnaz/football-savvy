@@ -39,10 +39,10 @@ h1 {
 }
 
 /* Quiz - build by coding along with Code Nepal tutorial and making my own amendments for colours, font, icons*/
-.start-btn, 
-.info-box,
-.quiz-box,
-.result-box{
+.start_btn, 
+.info_box,
+.quiz_box,
+.result_box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -50,7 +50,7 @@ h1 {
 }
 
 /* Start Quiz Button Styling */
-.start-btn button{
+.start_btn button{
     font-size: 25px;
     font-weight: 500;
     color: #202D38;
@@ -62,12 +62,13 @@ h1 {
     cursor: pointer;
 }
 
-.start-btn .start-quiz .fa-whistle{
+.start_btn .start_quiz .icon.whistle{
     color: #fff;
+    font-size: 25px
 }
 
 /* Info Box Styling */
-.info-box{
+.info_box{
     width: 540px;
     background-color: #fff;
     border-radius: 5px;
@@ -78,7 +79,7 @@ h1 {
     transform: translate(-50%, -50%) scale(0.9);
 }
 
-.info-box .info-title{
+.info_box .info_title{
     height: 60px;
     width: 100%;
     border-bottom: 1px solid #202D38;
@@ -90,26 +91,26 @@ h1 {
 
 }
 
-.info-box .info-title h3{
+.info_box .info_title h3{
     font-family: Black Ops One, sans-serif;
 }
 
-.info-box .info-list{
+.info_box .info_list{
     padding: 15px 35px;
 }
 
-.info-box .info-list .info{
+.info_box .info_list .info{
     margin: 5px 0;
     font-size: 17px;
 }
 
-.info-box .info-list .info span{
+.info_box .info_list .info span{
     font-weight: bolder;
     color: #658AB4;
 
 }
 
-.info-box .buttons{
+.info_box .buttons{
     height: 60px;
     display: flex;
     align-items: center;
@@ -118,7 +119,7 @@ h1 {
     border-top: 1px solid #202D38;
 }
 
-.info-box .buttons button{
+.info_box .buttons button{
     margin: 0 5px;
     height: 40px;
     width: 100px;
@@ -151,7 +152,7 @@ h1 {
 
 /* Quiz Box Styling */
 
-.quiz-box{
+.quiz_box{
     width: 540px;
     background-color: #fff;
     border-radius: 5px;
@@ -162,14 +163,14 @@ h1 {
     transform: translate(-50%, -50%) scale(0.9);
 }
 
-.quiz-box{
+.quiz_box{
     display: none;
     width: 550px;
     background: #fff;
     border-radius: 5px;
 }
 
-.quiz-box header{
+.quiz_box header{
     position: relative;
     z-index: 99;
     height: 70px;
@@ -182,12 +183,12 @@ h1 {
     box-shadow: 0px 3px 5px 1px #202D38;
 }
 
-.quiz-box header .title{
+.quiz_box header .title{
     font-size: 20px;
     font-weight: 600;
 }
 
-.quiz-box header .timer{
+.quiz_box header .timer{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -199,13 +200,13 @@ h1 {
     padding: 0 8px;
 }
 
-.quiz-box header .timer .timer-text{
+.quiz_box header .timer .timer_text{
     font-weight: 400;
     font-size: 17px;
     user-select: none;
 }
 
-.quiz-box header .timer .timer-sec{
+.quiz_box header .timer .timer_sec{
     font-size: 18px;
     font-weight: bolder;
     background: #91BB5F;
@@ -218,22 +219,22 @@ h1 {
     user-select: none;
 }
 
-.quiz-box section{
+.quiz_box section{
     padding: 25px 30px 20px 30px;
     background: #fff;
 }
 
-.quiz-box section .questions-text{
+.quiz_box section .questions_text{
     font-size: 25px;
     font-weight: 600;
 }
 
-.quiz-box section .option-list{
+.quiz_box section .option_list{
     padding: 20px 0;
     display: block;
 }
 
-section .option-list .option{
+section .option_list .option{
     background-color: #EEC51D;
     font-size: 17px;
     border-radius: 5px;
@@ -246,16 +247,16 @@ section .option-list .option{
     transition: all 0.3s ease;
 }
 
-section .option-list .option:hover{
+section .option_list .option:hover{
     color: #fff;
     background: #658ab4;
 }
 
-.option-list .option:last-child{
+.option_list .option:last-child{
     margin-bottom: 0px;
 }
 
-.option-list .option .icon{
+.option_list .option .icon{
     height: 26px;
     width: 26px;
     border: 2px solid transparent;
@@ -266,20 +267,20 @@ section .option-list .option:hover{
     pointer-events: none;
 }
 
-.option-list .option .icon.tick{
+.option_list .option .icon.tick{
     color: #fff;
     border-color: #91BB5F;
     background: #91BB5F;
 }
 
-.option-list .option .icon.cross{
+.option_list .option .icon.cross{
     color: #fff;
     border-color: #c0120;
     background: #C01420;
 }
 
 /* Quiz Box Footer */
-.quiz-box footer{
+.quiz_box footer{
     height: 60px;
     width: 100%;
     padding: 0 30px;
@@ -288,21 +289,21 @@ section .option-list .option:hover{
     justify-content: space-between;
 }
 
-.quiz-box footer .total-questions span{
+.quiz_box footer .total_questions span{
     display: flex;
     user-select: none;
 }
 
-.quiz-box footer .total-questions span p{
+.quiz_box footer .total_questions span p{
     font-weight: 500;
     padding: 0 5px;
 }
 
-.total-questions span p:first-child{
+.total_questions span p:first_child{
     padding-left: 0px;
 }
 
-footer .next-btn{
+footer .next_btn{
     height: 40px;
     padding: 0 13px;
     font-size: 18px;
@@ -317,12 +318,12 @@ footer .next-btn{
     transition: all 0.3s ease;
 }
 
-footer .next-btn:hover{
+footer .next_btn:hover{
     background: #EEC51D;
 }
 
 /* Result Box */
-.result-box{
+.result_box{
     background: #fff;
     width: 540px;
     padding: 25px 30px;
@@ -339,24 +340,24 @@ footer .next-btn:hover{
     transform: translate(-50%, -50%) scale(0.9);
 }
 
-.result-box .fa-trophy{
+.result_box .fa-trophy{
     font-size: 100px;
     color: #EEC51D;
     margin-bottom: 10px;
 }
 
-.result-box .complete-text{
+.result_box .complete_text{
     font-size: 20px;
     font-weight: bolder;
 }
 
-.result-box .score-text span{
+.result_box .score_text span{
     display: flex;
     margin: 10px 0;
     font-size: 18px;
 }
 
-.score-text span p{
+.score_text span p{
     font-weight: bolder;
     padding: 0 4px;
 }
@@ -382,7 +383,7 @@ footer .next-btn:hover{
 */
 
 /* Copied and pasted from info box buttons*/
-.result-box .buttons{
+.result_box .buttons{
     height: 60px;
     display: flex;
     align-items: center;
@@ -390,7 +391,7 @@ footer .next-btn:hover{
     padding: 0 35px;
 }
 
-.result-box .buttons button{
+.result_box .buttons button{
     margin: 0 5px;
     height: 40px;
     width: 150px;
